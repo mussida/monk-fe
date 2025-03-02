@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Luca",
+    "surname": "Rossi",
+    "age": 25,
+    "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png",
+    "teamId": 1,
+    "points": 1200
+  },
+  {
+    "id": 2,
+    "name": "Giulia",
+    "surname": "Bianchi",
+    "age": 22,
+    "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
+    "teamId": 2,
+    "points": 950
+  },
+  {
+    "id": 3,
+    "name": "Marco",
+    "surname": "Verdi",
+    "age": 30,
+    "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png",
+    "teamId": 1,
+    "points": 1400
+  },
+  {
+    "id": 4,
+    "name": "Sara",
+    "surname": "Neri",
+    "age": 27,
+    "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png",
+    "teamId": 3,
+    "points": 800
+  },
+  {
+    "id": 5,
+    "name": "Davide",
+    "surname": "Gialli",
+    "age": 23,
+    "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
+    "teamId": 2,
+    "points": 1100
+  }
+]

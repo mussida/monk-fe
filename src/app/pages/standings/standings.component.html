@@ -1,0 +1,26 @@
+<div class="mt-40 flex flex-col items-center">
+  <div class="text-4xl sm:text-5xl md:text-6xl uppercase text-center">
+    Le Classifiche
+  </div>
+  <div class="flex items-center p-2 mt-4">
+    <div
+      (click)="toggleTeamStandings()"
+      class="bg-text p-2 cursor-pointer"
+      [ngClass]="{ 'bg-text-dark': showTeamStandings }"
+    >
+      SQUADRE
+    </div>
+    <div
+      (click)="toggleTeamStandings()"
+      class="bg-text p-2 cursor-pointer"
+      [ngClass]="{ 'bg-text-dark': !showTeamStandings }"
+    >
+      SINGOLO
+    </div>
+  </div>
+</div>
+@if (showTeamStandings) {
+<app-user-standing [users]="users()"></app-user-standing>
+} @else {
+<app-teams-standing [teams]="teams()"></app-teams-standing>
+}

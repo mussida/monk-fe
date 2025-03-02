@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #e5decb;
+  --color-text: #68bad0ff;
+  --color-text-dark: #5394a6ff;
+  --color-background: #243e45ff;
+  --color-background-dark: #7c3e6fff;
+  --color-background-light: #a65394ff;
+  --color-background-lighter: #3e6f7cff;
+;
+}
+
+.splide__arrow--next.transparent-background {
+  background-color: transparent;
+  right: -2.5rem;
+}
+.splide__arrow--prev.transparent-background {
+  background-color: transparent;
+  left: -2.5rem;
+}

@@ -1,0 +1,24 @@
+<li
+  class="max-w-[377px] rounded-2xl bg-background-lighter px-8 py-10 sm:my-10 mx-3 text-white hover:scale-105 cursor-pointer transition-transform duration-300 ease-in-out"
+>
+  <img
+    class="mx-auto size-48 rounded-full md:size-42 lg:size-42 xl:size-56 object-cover"
+    [src]="user()?.imageUrl"
+    alt=""
+  />
+
+  <h3 class="mt-6 text-base/7 font-semibold tracking-tight">
+    {{ position() }} CLASSIFICATO
+  </h3>
+  <h3 class="text-base/7 font-semibold tracking-tight">
+    {{ user()?.name }} {{ user()?.surname }}
+  </h3>
+  <p class="text-sm/6">{{ user()?.age }} y.o.</p>
+  <div class="flex items-center gap-2 text-sm/6">
+    <p>Squadra:</p>
+    <span
+      class="inline-flex items-center rounded-md bg-green-500/10 px-2 py-1 font-medium text-green-400 ring-1 ring-inset ring-green-500/20"
+      >Verde</span
+    >
+  </div>
+</li>

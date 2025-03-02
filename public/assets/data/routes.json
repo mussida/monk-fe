@@ -1,0 +1,27 @@
+[
+  {
+    "grade": "6a",
+    "color": "red",
+    "points": 100
+  },
+  {
+    "grade": "6b",
+    "color": "blue",
+    "points": 200
+  },
+  {
+    "grade": "7a",
+    "color": "green",
+    "points": 300
+  },
+  {
+    "grade": "7b",
+    "color": "yellow",
+    "points": 400
+  },
+  {
+    "grade": "8a",
+    "color": "black",
+    "points": 500
+  }
+]

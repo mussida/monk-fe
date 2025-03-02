@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Rock Warriors",
+    "color": "#FF5733",
+    "points": 2600,
+    "imageUrl": "https://example.com/rockwarriors.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Vertical Masters",
+    "color": "#33FF57",
+    "points": 2050,
+    "imageUrl": "https://example.com/verticalmasters.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Gravity Defiers",
+    "color": "#3357FF",
+    "points": 800,
+    "imageUrl": "https://example.com/gravitydefiers.jpg"
+  }
+]

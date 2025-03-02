@@ -1,0 +1,82 @@
+<div class="px-4 sm:px-6 lg:px-8 text-white">
+  <div class="mt-8 flow-root">
+    <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+      <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+        <table class="min-w-full divide-y divide-text-dark">
+          <thead>
+            <tr>
+              <th
+                scope="col"
+                class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold sm:pl-0"
+              >
+                POS
+              </th>
+              <th
+                scope="col"
+                class="px-3 py-3.5 text-left text-sm font-semibold"
+              >
+                NOME COGNOME
+              </th>
+              <th
+                scope="col"
+                class="px-3 py-3.5 text-left text-sm font-semibold"
+              >
+                ETA'
+              </th>
+              <th
+                scope="col"
+                class="px-3 py-3.5 text-left text-sm font-semibold"
+              >
+                SQUADRA
+              </th>
+              <th
+                scope="col"
+                class="px-3 py-3.5 text-left text-sm font-semibold"
+              >
+                PTS
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-text-dark bg-background-lighter">
+            @for (user of users(); track $index) {
+            <tr>
+              <td class="whitespace-nowrap px-3 py-5 text-sm">
+                <div class="">{{ $index + 1 }}</div>
+              </td>
+              <td class="whitespace-nowrap py-5 pl-4 pr-3 text-sm sm:pl-0">
+                <div class="flex items-center">
+                  <div class="size-11 shrink-0">
+                    <img
+                      class="size-11 rounded-full"
+                      [src]="user.imageUrl"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ml-4">
+                    <div class="font-medium flex flex-col">
+                      <span>{{ user.name }}</span>
+                      <span>{{ user.surname }}</span>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class="whitespace-nowrap px-3 py-5 text-sm">
+                {{ user.age }}
+              </td>
+              <td class="whitespace-nowrap px-3 py-5 text-sm">
+                <span
+                  class="inline-flex items-center rounded-md bg-green-500/10 px-2 py-1 font-medium text-green-400 ring-1 ring-inset ring-green-500/20"
+                  >Verde</span
+                >
+              </td>
+              <td class="whitespace-nowrap px-3 py-5 text-sm">
+                {{ user.points }}
+              </td>
+            </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
