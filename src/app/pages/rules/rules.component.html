@@ -1,1 +1,126 @@
-<p>rules works!</p>
+<div class="relative isolate overflow-hidden py-24 sm:py-32 mt-24 text-white">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0">
+      <h1 class="mt-2 text-pretty text-4xl tracking-tight sm:text-5xl">
+        REGOLAMENTO
+      </h1>
+    </div>
+    <div
+      class="mx-auto grid max-w-2xl mt-8 grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none"
+    >
+      <div class="text-base/7 lg:col-span-7">
+        <h2 class="text-pretty text-3xl tracking-tight uppercase">
+          Forma la tua squadra
+        </h2>
+        <p class="mt-5 text-xl/8">
+          Ogni squadra è formata da 4 atleti pronti a scalare (letteralmente!)
+          la classifica: il Caposquadra, l’Alfiere e gli altri due atleti.
+        </p>
+                <div class="max-[2rem] my-5">
+            <figure class="border-l border-text pl-8">
+              <blockquote class="text-xl/8 tracking-tight max-w-2xl">
+                <p>
+                  “DUROH.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-8 flex gap-x-4">
+                <img
+                  src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt=""
+                  class="mt-1 size-10 flex-none rounded-full"
+                />
+                <div class="text-sm/6">
+                  <div class=" ">Jack</div>
+                  <div class="">brenna</div>
+                </div>
+              </figcaption>
+            </figure>
+        </div>
+        <h2 class="mt-10 text-pretty text-3xl tracking-tight uppercase">
+          Svolgimento della gara
+        </h2>
+        <p class="mt-5 text-xl/8">
+          Durante ogni manche, le squadre collezionano punti in base alle vie di
+          arrampicata “chiuse” dai propri atleti. Per “chiudere” una via basta
+          arrivare alla catena, senza limiti su quante volte si prova, se si
+          sale da primo, da secondo o con auto belay, e con quante cadute o
+          riposi necessari
+        </p>
+        <p class="mt-5 text-xl/8">
+          Una volta completata la via, l’atleta piazza il contrassegno del
+          colore di squadra sull’etichetta corrispondente. Se un avversario
+          riesce nella stessa impresa, può rimuovere il segnale precedente e
+          metterci il proprio (un po’ come ruba bandiera, ma con i muscoli!).
+          Non si ottengono punti extra ripetendo una via già chiusa da un
+          compagno della stessa squadra.
+        </p>
+        <h2 class="mt-10 text-pretty text-3xl tracking-tight uppercase">
+          Calendario di gara
+        </h2>
+        <p class="mt-6 text-xl/8">
+          La competizione si svolge da martedì 2 aprile a giovedì 24 aprile, per
+          un totale di 8 giornate di sfide e 4 manche. I giorni di gara sono
+          sempre martedì e giovedì, dalle 18:00 alle 21:45. Ogni settimana
+          (martedì + giovedì) corrisponde a una manche. Alla fine di ogni
+          manche, si contano i punti e tutti i contrassegni vengono rimossi,
+          pronti a sgradare nuovamente nella manche successiva.
+        </p>
+        <h2 class="mt-10 text-pretty text-3xl tracking-tight uppercase">
+          Punteggio di squadra e punteggio individuale
+        </h2>
+        <p class="mt-6 text-xl/8">
+          All’inizio di ogni giornata di gara, il Caposquadra sceglie chi sarà
+          l’Alfiere (può anche scegliere se stesso, perché un vero leader non ha
+          paura di mettersi in gioco!). A fine giornata, l’Alfiere prende per sé
+          il punteggio totalizzato dalla squadra, ma può farlo al massimo per
+          due giornate totali.
+        </p>
+        <p class="mt-5 text-xl/8">
+          Il punteggio di squadra è la somma dei risultati ottenuti in tutte le
+          manche. Se una squadra rimane senza Alfieri disponibili, continuerà
+          comunque a salire in classifica come squadra, senza più assegnare
+          punti individuali. Un’ultima cosa: il giorno prima di ogni giornata di
+          gara, il Caposquadra comunica al comitato il nome dell’Alfiere. Così
+          tutti sanno chi puntare… e marcare stretto!
+        </p>
+        <p class="mt-5 text-xl/8">
+          Un’ultima cosa: il giorno prima di ogni giornata di gara, il
+          Caposquadra comunica al comitato il nome dell’Alfiere. Così tutti
+          sanno chi puntare… e marcare stretto!
+        </p>
+        <h2 class="mt-10 text-pretty text-3xl tracking-tight uppercase">
+          Schema punteggi per le vie chiuse
+        </h2>
+        <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+          <div
+            class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8"
+          >
+            <table class="min-w-full divide-y divide-text-dark">
+              <thead>
+                <tr>
+                  @for (route of routesPoints; track $index) {
+                  <th
+                    scope="col"
+                    class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold sm:pl-0"
+                  >
+                    {{ route.grade }}
+                  </th>
+                  }
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-text-dark bg-background-lighter">
+                <tr>
+                  @for (route of routesPoints; track $index) {
+                  <td class="whitespace-nowrap px-3 py-5 text-sm">
+                    <div class="">{{ route.points }}</div>
+                  </td>
+                  }
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
