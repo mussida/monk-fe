@@ -2,11 +2,10 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'app-competition-section',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './competition-section.component.html',
-  styleUrl: './competition-section.component.css',
+    selector: 'app-competition-section',
+    imports: [CommonModule],
+    templateUrl: './competition-section.component.html',
+    styleUrl: './competition-section.component.css'
 })
 export class CompetitionSectionComponent {
   isVisible = false;

@@ -11,16 +11,15 @@ import {
 } from '../../services/data-service.service';
 
 @Component({
-  selector: 'app-standings',
-  standalone: true,
-  imports: [
-    CommonModule,
-    FormsModule,
-    UserStandingComponent,
-    TeamsStandingComponent,
-  ],
-  templateUrl: './standings.component.html',
-  styleUrl: './standings.component.css',
+    selector: 'app-standings',
+    imports: [
+        CommonModule,
+        FormsModule,
+        UserStandingComponent,
+        TeamsStandingComponent,
+    ],
+    templateUrl: './standings.component.html',
+    styleUrl: './standings.component.css'
 })
 export class StandingsComponent implements OnInit {
   showTeamStandings = false;

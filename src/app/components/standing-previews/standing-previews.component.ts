@@ -11,16 +11,15 @@ import { TeamsPreviewCardComponent } from '../teams-preview-card/teams-preview-c
 import { UserPreviewCardComponent } from '../user-preview-card/user-preview-card.component';
 
 @Component({
-  selector: 'app-standing-previews',
-  standalone: true,
-  imports: [
-    CommonModule,
-    TeamsPreviewCardComponent,
-    UserPreviewCardComponent,
-    NgxSplideModule,
-  ],
-  templateUrl: './standing-previews.component.html',
-  styleUrl: './standing-previews.component.css',
+    selector: 'app-standing-previews',
+    imports: [
+        CommonModule,
+        TeamsPreviewCardComponent,
+        UserPreviewCardComponent,
+        NgxSplideModule,
+    ],
+    templateUrl: './standing-previews.component.html',
+    styleUrl: './standing-previews.component.css'
 })
 export class StandingPreviewsComponent {
   isVisible = false;

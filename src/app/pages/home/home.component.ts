@@ -7,17 +7,16 @@ import { HomeImageComponent } from '../../components/home-image/home-image.compo
 import { CompetitionSectionComponent } from '../../components/competition-section/competition-section.component';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [
-    UserStandingComponent,
-    TitleComponent,
-    TeamsStandingComponent,
-    StandingPreviewsComponent,
-    HomeImageComponent,
-    CompetitionSectionComponent,
-  ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css',
+    selector: 'app-home',
+    imports: [
+        UserStandingComponent,
+        TitleComponent,
+        TeamsStandingComponent,
+        StandingPreviewsComponent,
+        HomeImageComponent,
+        CompetitionSectionComponent,
+    ],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css'
 })
 export class HomeComponent {}

@@ -3,11 +3,10 @@ import { Team, User } from '../../services/data-service.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-teams-preview-card',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './teams-preview-card.component.html',
-  styleUrl: './teams-preview-card.component.css',
+    selector: 'app-teams-preview-card',
+    imports: [CommonModule],
+    templateUrl: './teams-preview-card.component.html',
+    styleUrl: './teams-preview-card.component.css'
 })
 export class TeamsPreviewCardComponent {
   team = input<Team>();
