@@ -9,17 +9,19 @@ import {
 } from '../../services/data-service.service';
 import { TeamsPreviewCardComponent } from '../teams-preview-card/teams-preview-card.component';
 import { UserPreviewCardComponent } from '../user-preview-card/user-preview-card.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
-    selector: 'app-standing-previews',
-    imports: [
-        CommonModule,
-        TeamsPreviewCardComponent,
-        UserPreviewCardComponent,
-        NgxSplideModule,
-    ],
-    templateUrl: './standing-previews.component.html',
-    styleUrl: './standing-previews.component.css'
+  selector: 'app-standing-previews',
+  imports: [
+    CommonModule,
+    TeamsPreviewCardComponent,
+    UserPreviewCardComponent,
+    NgxSplideModule,
+    RouterLink,
+  ],
+  templateUrl: './standing-previews.component.html',
+  styleUrl: './standing-previews.component.css',
 })
 export class StandingPreviewsComponent {
   isVisible = false;

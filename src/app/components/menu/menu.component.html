@@ -6,18 +6,63 @@
   }"
 >
   <ul class="text-5xl md:text-6xl space-y-6">
-    <li><a href="#" class="transition">HOME</a></li>
+    <li>
+      <a
+        (click)="toggleMenu()"
+        routerLinkActive
+        #rla="routerLinkActive"
+        [routerLink]="''"
+        [routerLinkActiveOptions]="{ exact: true }"
+        [ngClass]="{
+          'text-text': rla.isActive,
+          'text-text-light': !rla.isActive
+        }"
+        class="transition"
+        >HOME</a
+      >
+    </li>
     <li>
       <a
         href="#"
         class="transition"
         routerLinkActive
-        #rlaArchive="routerLinkActive"
+        #rlaStandings="routerLinkActive"
+        [routerLink]="'standings'"
+        [ngClass]="{
+          'text-text': rlaStandings.isActive,
+          'text-text-light': !rlaStandings.isActive
+        }"
         (click)="toggleMenu()"
         >Classifica</a
       >
     </li>
-    <li><a href="#" class="transition">Regolamento</a></li>
-    <li><a href="#" class="transition">Squadre</a></li>
+    <li>
+      <a
+        routerLinkActive
+        #rlaRules="routerLinkActive"
+        [routerLink]="'rules'"
+        [ngClass]="{
+          'text-text': rlaRules.isActive,
+          'text-text-light': !rlaRules.isActive
+        }"
+        (click)="toggleMenu()"
+        class="transition"
+        >Regolamento</a
+      >
+    </li>
+    <li>
+      <a
+        routerLinkActive
+        #rlaTeams="routerLinkActive"
+        [routerLink]="'teams'"
+        (click)="toggleMenu()"
+        [ngClass]="{
+          'text-text': rlaTeams.isActive,
+          'text-text-light': !rlaTeams.isActive
+        }"
+        class="transition"
+        >Squadre</a
+      >
+    </li>
   </ul>
 </div>

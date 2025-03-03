@@ -1,5 +1,5 @@
 <div
-  class="flex flex-col justify-between md:px-32 md:py-24 px-14 py-14 gap-10 mb-10 opacity-0 transform translate-y-10 transition-all duration-700 ease-in-out"
+  class="flex flex-col justify-between md:px-32 md:py-24 px-10 py-14 gap-10 mb-10 opacity-0 transform translate-y-10 transition-all duration-700 ease-in-out"
   [ngClass]="{ 'opacity-100 translate-y-0': isVisible }"
   #whoWeAre
 >
@@ -8,7 +8,7 @@
       La competizione
     </div>
     <div
-      class="text-2xl md:text-3xl 2xl:text-4xl max-w-3xl flex justify-center items-center text-center"
+      class="text-2xl md:text-3xl 2xl:text-4xl max-w-3xl my-4 flex justify-center items-center text-center"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
       repudiandae et veniam eius quae consequuntur corporis tempora quisquam
@@ -17,7 +17,7 @@
     </div>
     <div class="group relative cursor-pointer text-lg font-medium">
       <div class="flex items-center justify-center gap-2 text-center">
-        <div>Leggi tutto il regolamento</div>
+        <a [routerLink]="'rules'">Leggi tutto il regolamento</a>
       </div>
       <div
         class="absolute left-0 bottom-0 h-[2px] w-0 bg-text-dark transition-all duration-300 group-hover:w-full"

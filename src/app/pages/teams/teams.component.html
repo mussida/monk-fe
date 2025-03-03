@@ -1,0 +1,19 @@
+<div class="mt-40 text-white">
+  <div class="mx-auto max-w-2xl px-4 pb-16 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="flex justify-center items-center mb-16">
+      <div class="text-4xl sm:text-5xl md:text-6xl uppercase text-center">
+        Squadre
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-8"
+    >
+      @for (team of teams(); track $index) {
+      <app-teams-preview-card
+        [team]="team"
+        [position]="$index + 1"
+      ></app-teams-preview-card>
+      }
+    </div>
+  </div>
+</div>
