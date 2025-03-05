@@ -8,8 +8,12 @@
   --color-background-dark: #7c3e6fff;
   --color-background-light: #a65394ff;
   --color-background-lighter: #3e6f7cff;
+  --color-background-lightest: #d068baff;
+  --font-display: "Montserrat", sans-serif;
 ;
 }
+
+
 
 .splide__arrow--next.transparent-background {
   background-color: transparent;
