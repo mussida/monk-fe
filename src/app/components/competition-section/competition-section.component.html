@@ -1,4 +1,4 @@
-<div
+<!-- <div
   class="flex flex-col justify-between md:px-32 md:py-24 px-10 py-14 gap-10 mb-10 opacity-0 transform translate-y-10 transition-all duration-700 ease-in-out"
   [ngClass]="{ 'opacity-100 translate-y-0': isVisible }"
   #whoWeAre
@@ -24,8 +24,56 @@
       ></div>
     </div>
   </div>
-  <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:w-1/2 mt-10">
-    <img class="rounded" src="assets/images/e.avif" alt="" />
-    <img class="rounded" src="assets/images/tree.avif" alt="" />
-  </div> -->
+
+</div> -->
+<div
+  class="opacity-0 transform translate-y-10 transition-all duration-700 ease-in-out"
+  [ngClass]="{ 'opacity-100 translate-y-0': isVisible }"
+  #whoWeAre
+>
+  <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2
+        class="text-balance text-4xl font-semibold tracking-tight sm:text-5xl"
+      >
+        Che cos'è MONK?
+      </h2>
+      <p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8">
+        Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id
+        veniam aliqua proident excepteur commodo do ea.
+      </p>
+      <div class="mt-10 flex items-center justify-center gap-x-6">
+        <!-- <div
+          class="group relative cursor-pointer text-lg font-medium overflow-hidden"
+        >
+          <div
+            class="flex items-center justify-center gap-2 text-center relative z-10 p-2 rounded-md bg-text"
+          >
+            <a [routerLink]="'rules'" class="relative z-10"
+              >Leggi tutto il regolamento</a
+            >
+          </div>
+          <div
+            class="absolute inset-0 bg-background-light w-0 transition-all duration-300 group-hover:w-full rounded-md"
+          ></div>
+        </div> -->
+        <div class="group relative cursor-pointer text-lg font-medium">
+          <div
+            class="relative flex items-center justify-center gap-2 text-center p-2 rounded-md overflow-hidden"
+          >
+            <a [routerLink]="'rules'" class="relative z-10 text-white"
+              >Leggi tutto il regolamento</a
+            >
+            <div
+              class="absolute inset-0 bg-text-dark transition-all duration-300"
+            ></div>
+
+            <div
+              class="absolute inset-0 bg-background-light w-0 transition-all duration-300 group-hover:w-full"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

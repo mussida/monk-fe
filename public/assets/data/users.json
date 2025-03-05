@@ -43,5 +43,23 @@
     "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
     "teamId": 2,
     "points": 1100
+  },
+  {
+    "id": 6,
+    "name": "Cosimo",
+    "surname": "Neri",
+    "age": 33,
+    "imageUrl": "assets/images/face.jpeg",
+    "teamId": 2,
+    "points": 1100
+  },
+  {
+    "id": 7,
+    "name": "Alessandro",
+    "surname": "Vettor",
+    "age": 30,
+    "imageUrl": "assets/images/face2.jpeg",
+    "teamId": 2,
+    "points": 1100
   }
 ]
