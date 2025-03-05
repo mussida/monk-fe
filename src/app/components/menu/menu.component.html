@@ -1,11 +1,11 @@
 <div
-  class="fixed top-0 inset-0 bg-background-lighter uppercase p-3 flex flex-col items-start md:items-start justify-center transition-all duration-500 ease-in-out overflow-hidden"
+  class="fixed top-0 inset-0 bg-background-lighter font-semibold p-3 flex flex-col items-start md:items-start justify-center transition-all duration-500 ease-in-out overflow-hidden"
   [ngClass]="{
     'opacity-100 pointer-events-auto visible': isMenuActive(),
     'opacity-0 pointer-events-none invisible': !isMenuActive()
   }"
 >
-  <ul class="text-5xl md:text-6xl space-y-6">
+  <ul class="text-4xl md:text-5xl space-y-6">
     <li>
       <a
         (click)="toggleMenu()"
@@ -18,7 +18,7 @@
           'text-text-light': !rla.isActive
         }"
         class="transition"
-        >HOME</a
+        >Home</a
       >
     </li>
     <li>
