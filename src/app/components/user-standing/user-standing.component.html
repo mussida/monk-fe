@@ -1,4 +1,13 @@
-<div class="px-4 sm:px-10 lg:px-18 text-white">
+<div class="px-4 sm:px-10 lg:px-18 text-white relative">
+ @if (showAlert) {
+    <div
+      class="absolute inset-0 z-40 px-3 flex items-center justify-center bg-black/50 backdrop-blur-md text-white text-center rounded-lg"
+    >
+      <p class="text-lg font-semibold">
+        La classifica sarà disponibile dopo l'inizio delle iscrizioni
+      </p>
+    </div>
+    }
   <div class="mt-8 flow-root">
     <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
       <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">

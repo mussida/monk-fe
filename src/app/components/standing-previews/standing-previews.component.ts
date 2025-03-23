@@ -26,7 +26,7 @@ import { RouterLink } from '@angular/router';
 export class StandingPreviewsComponent {
   isVisible = false;
   @ViewChild('whoWeAre', { static: true }) whoWeAreSection!: ElementRef;
-
+  showAlert = true;
   users = model<User[]>([]);
   teams = model<Team[]>([]);
   routes = model<Route[]>([]);

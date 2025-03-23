@@ -3,11 +3,12 @@ import { Team } from '../../services/data-service.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
-    selector: 'app-teams-standing',
-    imports: [CommonModule],
-    templateUrl: './teams-standing.component.html',
-    styleUrl: './teams-standing.component.css'
+  selector: 'app-teams-standing',
+  imports: [CommonModule],
+  templateUrl: './teams-standing.component.html',
+  styleUrl: './teams-standing.component.css',
 })
 export class TeamsStandingComponent {
   teams = model<Team[]>([]);
+  showAlert = true;
 }

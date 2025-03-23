@@ -1,16 +1,15 @@
 <div
-  class="flex flex-col justify-between px-14 py-8 md:py-14 gap-10 mb-10 md:mb-20 opacity-0 transform translate-y-10 transition-all duration-700 ease-in-out text-white"
-  [ngClass]="{ 'opacity-100 translate-y-0': isVisible }"
-  #whoWeAre
+  class="flex flex-col justify-between py-8 md:py-14 gap-10 mb-10 md:mb-20 text-white"
+  [ngClass]="{ 'px-14': !showAlert }"
 >
   <div class="flex flex-col gap-2 items-center justify-center 2xl:items-start">
     <h2 class="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
       Le classifiche
     </h2>
   </div>
-  <div>
+  <div class="relative">
     <div
-      class="flex flex-col md:flex-row justify-between md:items-end mt-10 text-center"
+      class="flex flex-col md:flex-row justify-between md:items-end mt-10 text-center px-14"
     >
       <h2
         class="text-balance text-3xl font-semibold tracking-tight sm:text-4xl"
@@ -26,47 +25,59 @@
         ></div>
       </div>
     </div>
-    <splide
-      class="block w-full h-full mt-14"
-      [options]="
-          {
-          perPage: 3,
-          pagination: false,
-          cover: true,
-          gap: '2rem',
-          type: 'scroll',
-          arrows: true,
-          perMove: 1,
-          breakpoints: {
-          '640': {
-            'perPage': 1
+
+    <div class="relative">
+      @if (showAlert) {
+      <div
+        class="absolute inset-0 z-40 flex px-3 items-center justify-center bg-black/50 backdrop-blur-md text-white text-center rounded-lg"
+      >
+        <p class="text-lg font-semibold">
+          La classifica sarà disponibile dopo l'inizio delle iscrizioni
+        </p>
+      </div>
+      }
+      <splide
+        class="block w-full h-full mt-14"
+        [options]="
+            {
+            perPage: 3,
+            pagination: false,
+            cover: true,
+            gap: '2rem',
+            type: 'scroll',
+            arrows: true,
+            perMove: 1,
+            breakpoints: {
+            '640': {
+              'perPage': 1
+            },
+            '768': {
+              'perPage': 2
+            },
+            '1024': {
+              'perPage': 2
+            },
           },
-          '768': {
-            'perPage': 2
-          },
-          '1024': {
-            'perPage': 2
-          },
-        },
-         classes:{
-            prev  : 'splide__arrow--prev transparent-background',
-            next  : 'splide__arrow--next transparent-background',
-          }
-      }"
-    >
-      @for (user of users(); track $index) { @if ($index < 18) {
-      <splide-slide>
-        <app-user-preview-card
-          [position]="$index + 1"
-          [user]="user"
-        ></app-user-preview-card>
-      </splide-slide>
-      } }
-    </splide>
+           classes:{
+              prev  : 'splide__arrow--prev transparent-background',
+              next  : 'splide__arrow--next transparent-background',
+            }
+        }"
+      >
+        @for (user of users(); track $index) { @if ($index < 18) {
+        <splide-slide>
+          <app-user-preview-card
+            [position]="$index + 1"
+            [user]="user"
+          ></app-user-preview-card>
+        </splide-slide>
+        } }
+      </splide>
+    </div>
   </div>
   <div>
     <div
-      class="flex flex-col md:flex-row justify-between md:items-end mt-20 text-center gap-2"
+      class="flex flex-col md:flex-row justify-between md:items-end mt-20 text-center gap-2 px-14"
     >
       <h2
         class="text-balance text-3xl font-semibold tracking-tight sm:text-4xl"
@@ -82,10 +93,19 @@
         ></div>
       </div>
     </div>
-
-    <splide
-      class="block w-full h-full mt-14"
-      [options]="
+    <div class="relative">
+      @if (showAlert) {
+      <div
+        class="absolute inset-0 z-40 px-3 flex items-center justify-center bg-black/50 backdrop-blur-md text-white text-center rounded-lg"
+      >
+        <p class="text-lg font-semibold">
+          La classifica sarà disponibile dopo l'inizio delle iscrizioni
+        </p>
+      </div>
+      }
+      <splide
+        class="block w-full h-full mt-14"
+        [options]="
           {
           perPage: 3,
           pagination: false,
@@ -110,15 +130,16 @@
             next  : 'splide__arrow--next transparent-background',
           }
       }"
-    >
-      @for (team of teams(); track $index) { @if ($index < 18) {
-      <splide-slide>
-        <app-teams-preview-card
-          [position]="$index + 1"
-          [team]="team"
-        ></app-teams-preview-card>
-      </splide-slide>
-      } }
-    </splide>
+      >
+        @for (team of teams(); track $index) { @if ($index < 18) {
+        <splide-slide>
+          <app-teams-preview-card
+            [position]="$index + 1"
+            [team]="team"
+          ></app-teams-preview-card>
+        </splide-slide>
+        } }
+      </splide>
+    </div>
   </div>
 </div>

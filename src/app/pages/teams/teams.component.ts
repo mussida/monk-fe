@@ -19,6 +19,8 @@ export class TeamsComponent {
   teams = model<Team[]>([]);
   routes = model<Route[]>([]);
 
+  showAlert = true;
+
   dataService = inject(DataServiceService);
 
   ngOnInit(): void {

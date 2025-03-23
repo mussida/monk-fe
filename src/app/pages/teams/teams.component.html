@@ -6,14 +6,22 @@
       </div>
     </div>
     <div
-      class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-8"
+      class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-8 relative"
     >
-      @for (team of teams(); track $index) {
+      @if (showAlert) {
+      <div
+        class="absolute inset-0 z-40 px-3 flex items-center justify-center bg-black/50 backdrop-blur-md text-white text-center rounded-lg"
+      >
+        <p class="text-lg font-semibold">
+          La classifica sarà disponibile dopo l'inizio delle iscrizioni
+        </p>
+      </div>
+      }Ø @for (team of teams(); track $index) { @if ($index <1) {
       <app-teams-preview-card
         [team]="team"
         [position]="$index + 1"
-      ></app-teams-preview-card>
-      }
+      ></app-teams-preview-card
+      >} }
     </div>
   </div>
 </div>
