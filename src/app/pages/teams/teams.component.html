@@ -16,7 +16,7 @@
           La classifica sarà disponibile dopo l'inizio delle iscrizioni
         </p>
       </div>
-      }Ø @for (team of teams(); track $index) { @if ($index <1) {
+      } @for (team of teams(); track $index) { @if ($index <100) {
       <app-teams-preview-card
         [team]="team"
         [position]="$index + 1"

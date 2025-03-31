@@ -10,19 +10,4 @@ import { RouterLink } from '@angular/router';
 })
 export class CompetitionSectionComponent {
   isVisible = false;
-  @ViewChild('whoWeAre', { static: true }) whoWeAreSection!: ElementRef;
-
-  ngOnInit() {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          this.isVisible = true;
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.2 }
-    );
-
-    observer.observe(this.whoWeAreSection.nativeElement);
-  }
 }

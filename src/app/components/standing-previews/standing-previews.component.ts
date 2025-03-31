@@ -25,8 +25,7 @@ import { RouterLink } from '@angular/router';
 })
 export class StandingPreviewsComponent {
   isVisible = false;
-  @ViewChild('whoWeAre', { static: true }) whoWeAreSection!: ElementRef;
-  showAlert = true;
+  showAlert = false;
   users = model<User[]>([]);
   teams = model<Team[]>([]);
   routes = model<Route[]>([]);
@@ -43,8 +42,6 @@ export class StandingPreviewsComponent {
       },
       { threshold: 0.2 }
     );
-
-    observer.observe(this.whoWeAreSection.nativeElement);
 
     this.dataService.getUsers().subscribe((users) => {
       this.users.set(users);

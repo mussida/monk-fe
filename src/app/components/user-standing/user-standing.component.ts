@@ -9,5 +9,5 @@ import { User } from '../../services/data-service.service';
 })
 export class UserStandingComponent {
   users = model<User[]>([]);
-  showAlert = true;
+  showAlert = false;
 }

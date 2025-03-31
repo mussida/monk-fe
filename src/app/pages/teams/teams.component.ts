@@ -19,7 +19,7 @@ export class TeamsComponent {
   teams = model<Team[]>([]);
   routes = model<Route[]>([]);
 
-  showAlert = true;
+  showAlert = false;
 
   dataService = inject(DataServiceService);
 

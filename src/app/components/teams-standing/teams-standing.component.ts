@@ -10,5 +10,5 @@ import { CommonModule } from '@angular/common';
 })
 export class TeamsStandingComponent {
   teams = model<Team[]>([]);
-  showAlert = true;
+  showAlert = false;
 }
