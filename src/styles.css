@@ -10,9 +10,10 @@
   --color-background-lighter: #3e6f7cff;
   --color-background-lightest: #d068baff;
   --font-display: "Montserrat", sans-serif;
-;
 }
-
+body {
+  cursor: url('/assets/images/logoColori.png') 32 32, default;
+}
 
 
 .splide__arrow--next.transparent-background {
