@@ -11,6 +11,13 @@
   --color-background-lightest: #d068baff;
   --font-display: "Montserrat", sans-serif;
 }
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .mobile-landscape-hidden {
+    display: none !important;
+  }
+}
+
 body {
   cursor: url('/assets/images/logoColori.png') 32 32, default;
 }
