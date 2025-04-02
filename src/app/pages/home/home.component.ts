@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CompetitionSectionComponent } from '../../components/competition-section/competition-section.component';
 import { HomeImageComponent } from '../../components/home-image/home-image.component';
 import { StandingPreviewsComponent } from '../../components/standing-previews/standing-previews.component';
+import { TimeToStartComponent } from '../../components/time-to-start/time-to-start.component';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +10,7 @@ import { StandingPreviewsComponent } from '../../components/standing-previews/st
     StandingPreviewsComponent,
     HomeImageComponent,
     CompetitionSectionComponent,
+    TimeToStartComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

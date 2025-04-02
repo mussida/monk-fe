@@ -1,12 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component, model } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { TimeToStartComponent } from '../time-to-start/time-to-start.component';
 
 @Component({
-    selector: 'app-navbar',
-    imports: [CommonModule, RouterLink, RouterLinkActive],
-    templateUrl: './navbar.component.html',
-    styleUrl: './navbar.component.css'
+  selector: 'app-navbar',
+  imports: [CommonModule, RouterLink, RouterLinkActive, TimeToStartComponent],
+  templateUrl: './navbar.component.html',
+  styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
   burgerMenuActive = false;
