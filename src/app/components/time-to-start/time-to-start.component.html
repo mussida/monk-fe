@@ -28,11 +28,11 @@
       <span class="text-lg">minuti</span>
     </div>
     <div class="text-white flex flex-col items-center w-28">
-      <span class="text-xl md:text-4xl text-white font-bold tabular-nums">
-        {{ remainingTime.seconds }}.{{
-          remainingTime.milliseconds | number : "3.0-0"
-        }}
-      </span>
+      <div class="text-white font-bold tabular-nums flex gap-1 items-end">
+        <span class="text-xl md:text-4xl">{{ remainingTime.seconds }}</span>,<span class="text-lg md:text-2xl">
+          {{ remainingTime.milliseconds | number : "3.0-0" }}
+        </span>
+      </div>
       <span class="text-lg">secondi</span>
     </div>
   </div>
