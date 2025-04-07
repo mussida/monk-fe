@@ -8,7 +8,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
   styleUrl: './time-to-start.component.css',
 })
 export class TimeToStartComponent implements OnInit, OnDestroy {
-  targetDate: string = '2025-05-05T10:00:00';
+  targetDate: string = '2025-05-06T10:00:00';
   remainingTime!: {
     months: number;
     days: number;

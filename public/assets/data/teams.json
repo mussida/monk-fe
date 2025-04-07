@@ -4,41 +4,47 @@
     "name": "Rock Warriors",
     "color": "#a83832",
     "points": 2600,
-    "imageUrl": "https://example.com/rockwarriors.jpg"
+    "imageUrl": "https://example.com/rockwarriors.jpg",
+    "sentence": "Rock Warriors are the champions of the climbing world, conquering every boulder problem with ease."
   },
   {
     "id": 2,
     "name": "Vertical Masters",
     "color": "#2ECC71",
     "points": 2050,
-    "imageUrl": "https://example.com/verticalmasters.jpg"
+    "imageUrl": "https://example.com/verticalmasters.jpg",
+    "sentence": "Vertical Masters are the elite climbers, scaling the highest peaks and pushing the limits of human endurance."
   },
   {
     "id": 3,
     "name": "Gravity Defiers",
     "color": "#3252a8",
     "points": 800,
-    "imageUrl": "https://example.com/gravitydefiers.jpg"
+    "imageUrl": "https://example.com/gravitydefiers.jpg",
+    "sentence": "Gravity Defiers are the fearless climbers who take on the most challenging routes, defying the laws of physics."
   },
   {
     "id": 4,
     "name": "Climbing Ninjas",
     "color": "#5e32a8",
     "points": 1500,
-    "imageUrl": "https://example.com/climbingninjas.jpg"
+    "imageUrl": "https://example.com/climbingninjas.jpg",
+    "sentence": "Climbing Ninjas are the stealthy climbers, moving with grace and precision on every ascent."
   },
   {
     "id": 5,
     "name": "Boulder Crushers",
     "color": "#3285a8",
     "points": 1000,
-    "imageUrl": "https://example.com/bouldercrushers.jpg"
+    "imageUrl": "https://example.com/bouldercrushers.jpg",
+    "sentence": "Boulder Crushers are the powerhouse climbers, smashing through every boulder problem in their path."
   },
   {
     "id": 6,
     "name": "Mountain Goats",
     "color": "#212121",
     "points": 300,
-    "imageUrl": "https://example.com/mountaingoats.jpg"
+    "imageUrl": "https://example.com/mountaingoats.jpg",
+    "sentence": "Mountain Goats are the agile climbers, effortlessly navigating rocky terrains and steep cliffs."
   }
 ]

@@ -8,6 +8,7 @@ export interface Team {
   color: string;
   imageUrl: string;
   points: number;
+  sentence: string;
 }
 
 export interface Route {
