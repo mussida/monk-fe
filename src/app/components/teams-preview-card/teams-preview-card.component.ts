@@ -16,9 +16,24 @@ export class TeamsPreviewCardComponent {
   showTeam = false;
 
   ngOnInit() {
-    this.teamMembers = this.users()?.filter(
-      (user) => user.teamId === this.team()?.id
-    );
+    // Verifica iniziale se gli utenti sono disponibili
+    this.updateTeamMembers();
+  }
+
+  // Puoi usare ngOnChanges per reagire ai cambiamenti degli input
+  ngOnChanges() {
+    this.updateTeamMembers();
+  }
+
+  updateTeamMembers() {
+    const currentUsers = this.users();
+    const currentTeam = this.team();
+
+    if (currentUsers && currentUsers.length > 0 && currentTeam) {
+      this.teamMembers = currentUsers.filter(
+        (user) => user.teamId === currentTeam.id
+      );
+    }
   }
 
   toggleShowTeam() {
