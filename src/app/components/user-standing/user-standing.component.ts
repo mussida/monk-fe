@@ -10,4 +10,10 @@ import { User } from '../../services/data-service.service';
 export class UserStandingComponent {
   users = model<User[]>([]);
   showAlert = false;
+
+  ngOnInit(): void {
+    this.users.update((users) =>
+      [...users].sort((a, b) => b.points - a.points)
+    );
+  }
 }

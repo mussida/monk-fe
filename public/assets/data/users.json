@@ -1,65 +1,110 @@
 [
   {
     "id": 1,
-    "name": "Luca",
-    "surname": "Rossi",
-    "age": 25,
-    "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png",
+    "name": "Adam",
+    "surname": "Ondra",
+    "age": 32,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Adam_Ondra_by_PAVEL_BLAZEK_2.jpg",
     "teamId": 1,
     "points": 1200
   },
   {
     "id": 2,
-    "name": "Giulia",
-    "surname": "Bianchi",
-    "age": 22,
-    "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
-    "teamId": 2,
+    "name": "Janja",
+    "surname": "Gambret",
+    "age": 26,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Sve%C4%8Dana_podelitev_nagrad_za_osvojene_olimpijske_medalje_v_Parizu_2024_%28Janja_Garnbret_cropped%29.jpg",
+    "teamId": 1,
     "points": 950
   },
   {
     "id": 3,
-    "name": "Marco",
-    "surname": "Verdi",
-    "age": 30,
-    "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png",
+    "name": "Toby",
+    "surname": "Roberts",
+    "age": 20,
+    "imageUrl": "https://www.ifsc-climbing.org/_next/image?url=https%3A%2F%2Fifsc.results.info%2Fathletes%2F11490%2Fphoto&w=384&q=75",
     "teamId": 1,
     "points": 1400
   },
   {
     "id": 4,
-    "name": "Sara",
-    "surname": "Neri",
-    "age": 27,
-    "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png",
-    "teamId": 3,
+    "name": "Stefano",
+    "surname": "Ghisolfi",
+    "age": 32,
+    "imageUrl": "https://www.lasportiva.com/media/mageplaza/blog/auth/a/v/avatar-stefano-ghisolfi-matteo-pavana2_2.jpg",
+    "teamId": 1,
     "points": 800
   },
   {
     "id": 5,
-    "name": "Davide",
-    "surname": "Gialli",
-    "age": 23,
-    "imageUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
+    "name": "Alberto",
+    "surname": "Gines López",
+    "age": 22,
+    "imageUrl": "https://www.ifsc-climbing.org/_next/image?url=https%3A%2F%2Fifsc.results.info%2Fathletes%2F811%2Fphoto&w=384&q=75",
     "teamId": 2,
     "points": 1100
   },
   {
     "id": 6,
-    "name": "Cosimo",
-    "surname": "Neri",
-    "age": 22,
-    "imageUrl": "assets/images/face.jpeg",
+    "name": "Oriane",
+    "surname": "Bertone",
+    "age": 20,
+    "imageUrl": "https://www.ifsc-climbing.org/_next/image?url=https%3A%2F%2Fifsc.results.info%2Fathletes%2F11462%2Fphoto&w=384&q=75",
     "teamId": 2,
     "points": 1100
   },
   {
     "id": 7,
-    "name": "Alessandro",
-    "surname": "Vettor",
-    "age": 30,
-    "imageUrl": "assets/images/face2.jpeg",
+    "name": "Filip",
+    "surname": "Schenk",
+    "age": 25,
+    "imageUrl": "https://www.ifsc-climbing.org/_next/image?url=https%3A%2F%2Fifsc.results.info%2Fathletes%2F912%2Fphoto&w=384&q=75",
     "teamId": 2,
+    "points": 1100
+  },
+  {
+    "id": 7,
+    "name": "Laura",
+    "surname": "Rogora",
+    "age": 23,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Laura_Rogora_WCh_2018.jpg/800px-Laura_Rogora_WCh_2018.jpg",
+    "teamId": 2,
+    "points": 1100
+  },
+  {
+    "id": 8,
+    "name": "Tomoa",
+    "surname": "Narasaki",
+    "age": 28,
+    "imageUrl": "https://www.ifsc-climbing.org/_next/image?url=https%3A%2F%2Fifsc.results.info%2Fathletes%2F2276%2Fphoto&w=384&q=75",
+    "teamId": 3,
+    "points": 1100
+  },
+  {
+    "id": 9,
+    "name": "Brooke",
+    "surname": "Raboutou",
+    "age": 24,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Brooke_Raboutou_in_2019.jpg/800px-Brooke_Raboutou_in_2019.jpg",
+    "teamId": 3,
+    "points": 1100
+  },
+  {
+    "id": 10,
+    "name": "Jakob",
+    "surname": "Schubert",
+    "age": 34,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Jakob_Schubert_Climbing_WCh_2018.jpg",
+    "teamId": 3,
+    "points": 1100
+  },
+  {
+    "id": 10,
+    "name": "Giacomo",
+    "surname": "Mingardi",
+    "age": 25,
+    "imageUrl": "assets/images/Jak.jpeg",
+    "teamId": 3,
     "points": 1100
   }
 ]

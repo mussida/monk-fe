@@ -22,29 +22,5 @@
     "points": 800,
     "imageUrl": "https://example.com/gravitydefiers.jpg",
     "sentence": "Gravity Defiers are the fearless climbers who take on the most challenging routes, defying the laws of physics."
-  },
-  {
-    "id": 4,
-    "name": "Climbing Ninjas",
-    "color": "#5e32a8",
-    "points": 1500,
-    "imageUrl": "https://example.com/climbingninjas.jpg",
-    "sentence": "Climbing Ninjas are the stealthy climbers, moving with grace and precision on every ascent."
-  },
-  {
-    "id": 5,
-    "name": "Boulder Crushers",
-    "color": "#3285a8",
-    "points": 1000,
-    "imageUrl": "https://example.com/bouldercrushers.jpg",
-    "sentence": "Boulder Crushers are the powerhouse climbers, smashing through every boulder problem in their path."
-  },
-  {
-    "id": 6,
-    "name": "Mountain Goats",
-    "color": "#212121",
-    "points": 300,
-    "imageUrl": "https://example.com/mountaingoats.jpg",
-    "sentence": "Mountain Goats are the agile climbers, effortlessly navigating rocky terrains and steep cliffs."
   }
 ]

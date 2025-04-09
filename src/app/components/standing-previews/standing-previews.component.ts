@@ -44,12 +44,12 @@ export class StandingPreviewsComponent {
     );
 
     this.dataService.getUsers().subscribe((users) => {
-      this.users.set(users);
+      this.users.set([...users].sort((a, b) => b.points - a.points));
       console.log(users);
     });
 
     this.dataService.getTeams().subscribe((teams) => {
-      this.teams.set(teams);
+      this.teams.set([...teams].sort((a, b) => b.points - a.points));
       console.log(teams);
     });
 

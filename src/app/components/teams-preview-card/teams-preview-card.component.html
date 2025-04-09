@@ -54,7 +54,7 @@
     [ngClass]="{ 'max-h-0': !showTeam, 'max-h-40': showTeam }"
   >
     <ul role="list" class="divide-y text-2xs w-full mt-2">
-      @for (user of users; track $index) {
+      @for (user of teamMembers; track $index) {
       <div target="_blank" rel="noopener noreferrer">
         <li class="relative flex justify-between w-full cursor-pointer">
           <div>{{ user.name }}</div>
