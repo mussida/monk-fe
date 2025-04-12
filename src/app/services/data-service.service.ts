@@ -9,6 +9,7 @@ export interface Team {
   imageUrl: string;
   points: number;
   sentence: string;
+  abbreviation: string;
 }
 
 export interface Route {

@@ -29,4 +29,9 @@ export class UserStandingComponent {
     const team = this.getTeam(teamId);
     return team ? team.name : 'Nessuna squadra';
   }
+
+  getTeamAbbreviation(teamId: number): string {
+    const team = this.getTeam(teamId);
+    return team ? team.abbreviation : 'Nessuna squadra';
+  }
 }
