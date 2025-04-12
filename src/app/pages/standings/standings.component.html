@@ -20,7 +20,7 @@
   </div>
 </div>
 @if (showTeamStandings) {
-<app-user-standing [users]="users()"></app-user-standing>
+<app-user-standing [users]="users()" [teams]="teams()"></app-user-standing>
 } @else {
 <app-teams-standing [teams]="teams()"></app-teams-standing>
 }
