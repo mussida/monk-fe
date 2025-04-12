@@ -69,7 +69,7 @@
                   class="inline-flex items-center rounded-md px-2 py-1 font-medium text-white ring-1 ring-inset"
                   [ngStyle]="{
                     'background-color':
-                      (getTeam(user.teamId)?.color || '#ccc') + '80',
+                      (getTeam(user.teamId)?.color || '#ccc'),
                     'ring-color': getTeam(user.teamId)?.color || '#ccc'
                   }"
                 >

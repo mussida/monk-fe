@@ -19,7 +19,6 @@ export class UserStandingComponent {
     );
   }
 
-  // Metodo per ottenere la squadra di un utente
   getTeam(teamId: number): Team | undefined {
     console.log('teamId', teamId);
     return this.teams().find((team) => team.id === teamId);

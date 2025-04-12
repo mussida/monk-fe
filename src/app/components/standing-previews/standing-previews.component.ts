@@ -57,4 +57,19 @@ export class StandingPreviewsComponent {
       this.routes.set(routes);
     });
   }
+
+  getTeam(teamId: number): Team | undefined {
+    console.log('teamId', teamId);
+    return this.teams().find((team) => team.id === teamId);
+  }
+
+  getTeamName(teamId: number): string {
+    const team = this.getTeam(teamId);
+    return team ? team.name : 'Nessuna squadra';
+  }
+
+  getTeamAbbreviation(teamId: number): string {
+    const team = this.getTeam(teamId);
+    return team ? team.abbreviation : 'Nessuna squadra';
+  }
 }
