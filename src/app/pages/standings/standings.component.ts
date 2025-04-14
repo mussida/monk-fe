@@ -9,17 +9,19 @@ import {
   Team,
   User,
 } from '../../services/data-service.service';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
-    selector: 'app-standings',
-    imports: [
-        CommonModule,
-        FormsModule,
-        UserStandingComponent,
-        TeamsStandingComponent,
-    ],
-    templateUrl: './standings.component.html',
-    styleUrl: './standings.component.css'
+  selector: 'app-standings',
+  imports: [
+    CommonModule,
+    FormsModule,
+    UserStandingComponent,
+    TeamsStandingComponent,
+    FooterComponent,
+  ],
+  templateUrl: './standings.component.html',
+  styleUrl: './standings.component.css',
 })
 export class StandingsComponent implements OnInit {
   showTeamStandings = false;

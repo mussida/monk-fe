@@ -7,10 +7,11 @@ import {
 } from '../../services/data-service.service';
 import { CommonModule } from '@angular/common';
 import { TeamsPreviewCardComponent } from '../../components/teams-preview-card/teams-preview-card.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-teams',
-  imports: [CommonModule, TeamsPreviewCardComponent],
+  imports: [CommonModule, TeamsPreviewCardComponent, FooterComponent],
   templateUrl: './teams.component.html',
   styleUrl: './teams.component.css',
 })

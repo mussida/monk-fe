@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-rules',
-  imports: [],
+  imports: [FooterComponent],
   templateUrl: './rules.component.html',
   styleUrl: './rules.component.css',
 })
