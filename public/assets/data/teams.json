@@ -1,29 +1,29 @@
 [
   {
     "id": 1,
-    "name": "Rock Warriors",
+    "name": "GLI HANDIQUAQQUATI",
     "color": "#a83832",
-    "points": 2600,
-    "imageUrl": "https://example.com/rockwarriors.jpg",
-    "sentence": "Rock Warriors are the champions of the climbing world, conquering every boulder problem with ease.",
-    "abbreviation": "RW"
+    "points": 0,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/GLI+HANDIQUAQQUATI/GLI+HANDIQUAQQUATI.jpg",
+    "sentence": "Allahu quackbar!.",
+    "abbreviation": "HQ"
   },
   {
     "id": 2,
-    "name": "Vertical Masters",
+    "name": "GLI APPIGLIATI",
     "color": "#2ECC71",
-    "points": 2050,
-    "imageUrl": "https://example.com/verticalmasters.jpg",
-    "sentence": "Vertical Masters are the elite climbers, scaling the highest peaks and pushing the limits of human endurance.",
-    "abbreviation": "VM"
+    "points": 0,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/WE/WE.png",
+    "sentence": "Barcollo ma non blocco!",
+    "abbreviation": "APP"
   },
   {
     "id": 3,
-    "name": "Gravity Defiers",
-    "color": "#3252a8",
-    "points": 800,
-    "imageUrl": "https://example.com/gravitydefiers.jpg",
-    "sentence": "Gravity Defiers are the fearless climbers who take on the most challenging routes, defying the laws of physics.",
-    "abbreviation": "GD"
+    "name": "LE PRESE MALE",
+    "color": "#3498DB",
+    "points": 0,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Le+prese+male/Le+prese+male+-+Alessandro+Vettor.jpg",
+    "sentence": "Carrots for power",
+    "abbreviation": "PM"
   }
 ]

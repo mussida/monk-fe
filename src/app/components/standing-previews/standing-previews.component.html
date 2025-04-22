@@ -72,7 +72,7 @@
             [position]="$index + 1"
             [user]="user"
             [teamColor]="getTeam(user.teamId)?.color"
-            [teamAbbreviation]="getTeamAbbreviation(user.teamId)"
+            [teamAbbreviation]="getTeam(user.teamId)?.abbreviation"
           ></app-user-preview-card>
         </splide-slide>
         } }

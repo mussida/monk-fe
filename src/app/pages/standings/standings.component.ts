@@ -9,7 +9,6 @@ import {
   Team,
   User,
 } from '../../services/data-service.service';
-import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-standings',
@@ -18,7 +17,6 @@ import { FooterComponent } from '../../components/footer/footer.component';
     FormsModule,
     UserStandingComponent,
     TeamsStandingComponent,
-    FooterComponent,
   ],
   templateUrl: './standings.component.html',
   styleUrl: './standings.component.css',
@@ -33,11 +31,11 @@ export class StandingsComponent implements OnInit {
 
   ngOnInit() {
     this.dataService.getUsers().subscribe((users) => {
-      this.users.set(users);
+      this.users.set([...users].sort((a, b) => b.points - a.points));
     });
 
     this.dataService.getTeams().subscribe((teams) => {
-      this.teams.set(teams);
+      this.teams.set([...teams].sort((a, b) => b.points - a.points));
     });
 
     this.dataService.getRoutes().subscribe((routes) => {

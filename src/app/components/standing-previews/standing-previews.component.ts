@@ -33,16 +33,6 @@ export class StandingPreviewsComponent {
   dataService = inject(DataServiceService);
 
   ngOnInit() {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          this.isVisible = true;
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.2 }
-    );
-
     this.dataService.getUsers().subscribe((users) => {
       this.users.set([...users].sort((a, b) => b.points - a.points));
       console.log(users);
@@ -58,18 +48,15 @@ export class StandingPreviewsComponent {
     });
   }
 
+  private teamCache = new Map<number, Team>();
+
   getTeam(teamId: number): Team | undefined {
-    console.log('teamId', teamId);
-    return this.teams().find((team) => team.id === teamId);
-  }
-
-  getTeamName(teamId: number): string {
-    const team = this.getTeam(teamId);
-    return team ? team.name : 'Nessuna squadra';
-  }
-
-  getTeamAbbreviation(teamId: number): string {
-    const team = this.getTeam(teamId);
-    return team ? team.abbreviation : 'Nessuna squadra';
+    if (!this.teamCache.has(teamId)) {
+      const team = this.teams().find((team) => team.id === teamId);
+      if (team) {
+        this.teamCache.set(teamId, team);
+      }
+    }
+    return this.teamCache.get(teamId);
   }
 }

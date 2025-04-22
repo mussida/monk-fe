@@ -10,8 +10,8 @@
   <h3 class="mt-6 text-base/7 tracking-tight font-thin">
     {{ position() }} CLASSIFICATO
   </h3>
-  <h3 class="text-2xl/7 font-semibold tracking-tight">
-    {{ user()?.name }} {{ user()?.surname }}
+  <h3 class="text-2xl/7 font-semibold tracking-tight line-clamp-2">
+    {{ user()?.name }} <br> {{ user()?.surname }}
   </h3>
   <p class="text-sm/6">{{ user()?.age }} y.o.</p>
   <div class="flex items-center gap-2 text-sm/6">
@@ -19,7 +19,7 @@
     <span
       class="inline-flex items-center rounded-md px-2 py-1 font-medium text-white ring-1 ring-inset"
       [ngStyle]="{
-        'background-color': ( teamColor() || '#ccc') + '',
+        'background-color': ( teamColor() || '#ccc'),
         'ring-color': teamColor() || '#ccc'
       }"
     >

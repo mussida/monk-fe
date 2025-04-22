@@ -1,19 +1,17 @@
 <div
   class="max-w-[377px] rounded-2xl bg-background-lighter xl:p-10 p-6 sm:my-10 mx-3 hover:scale-105 cursor-pointer transition-transform duration-300 ease-in-out"
 >
-  <!-- <img
-    class="mx-auto size-48 rounded-full md:size-42 lg:size-42 xl:size-56 object-cover"
-    [src]="
-      'https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png'
-    "
+  <img
+    class="mx-auto size-48 rounded-lg border-2 border-white md:size-42 lg:size-42 xl:size-56 object-cover"
+    [src]="team()?.imageUrl"
     alt=""
-  /> -->
-  <div
+  />
+  <!-- <div
     class="mx-auto size-48 rounded-full md:size-42 lg:size-42 xl:size-56 object-cover border-2 border-white"
     [ngStyle]="{ 'background-color': team()?.color }"
-  ></div>
+  ></div> -->
   <div class="flex flex-col items-center justify-between gap-x-4 mt-4">
-    <h3 id="tier-startup" class="text-xl font-semibold">
+    <h3 id="tier-startup" class="text-xl font-semibold text-center min-h-16 flex justify-center items-center">
       {{ team()?.name }}
     </h3>
     <p
