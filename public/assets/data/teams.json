@@ -25,5 +25,14 @@
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Le+prese+male/Le+prese+male+-+Alessandro+Vettor.jpg",
     "sentence": "Carrots for power",
     "abbreviation": "PM"
+  },
+  {
+    "id": 4,
+    "name": "I PAPABILI",
+    "color": "#9B59B6",
+    "points": 0,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/I+PAPABILI/PAPABILI.png",
+    "sentence": "Aut vincere, aut mori.",
+    "abbreviation": "PAP"
   }
 ]

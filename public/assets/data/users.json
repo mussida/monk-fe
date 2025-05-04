@@ -106,5 +106,41 @@
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Le+prese+male/Giulia_Le+prese+male+-+Alessandro+Vettor.jpg",
     "teamId": 3,
     "points": 0
+  },
+  {
+    "id": 13,
+    "name": "Massimo I",
+    "surname": "Rondelli",
+    "age": 99,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/I+PAPABILI/max.jpeg",
+    "teamId": 4,
+    "points": 0
+  },
+  {
+    "id": 14,
+    "name": "Filippo Pio XIII",
+    "surname": "Brajucha",
+    "age": 99,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/I+PAPABILI/filo.jpeg",
+    "teamId": 4,
+    "points": 0
+  },
+  {
+    "id": 15,
+    "name": "Paolo VII",
+    "surname": " Cascone",
+    "age": 99,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/I+PAPABILI/paolo.jpeg",
+    "teamId": 4,
+    "points": 0
+  },
+  {
+    "id": 16,
+    "name": "Alice Benedicta I",
+    "surname": "Cascella",
+    "age": 99,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/I+PAPABILI/alice.jpeg",
+    "teamId": 4,
+    "points": 0
   }
 ]
