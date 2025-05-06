@@ -11,9 +11,9 @@
     [ngStyle]="{ 'background-color': team()?.color }"
   ></div> -->
   <div class="flex flex-col items-center justify-between gap-x-4 mt-4">
-    <h3 id="tier-startup" class="text-xl font-semibold text-center min-h-16 flex justify-center items-center">
+    <div id="tier-startup" class="text-xl font-semibold text-center min-h-16 flex justify-center items-center line-clamp-2">
       {{ team()?.name }}
-    </h3>
+    </div>
     <p
       class="rounded-full px-2.5 py-1 mt-3 text-xs/5 font-semibold"
       [ngStyle]="{ 'background-color': team()?.color }"

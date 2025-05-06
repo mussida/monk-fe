@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "GLI HANDIQUAQQUATI",
-    "color": "#a83832",
+    "color": "#fdc800",
     "points": 0,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/GLI+HANDIQUAQQUATI/GLI+HANDIQUAQQUATI.jpg",
     "sentence": "Allahu quackbar!.",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "GLI APPIGLIATI",
-    "color": "#2ECC71",
+    "color": "#00a63e",
     "points": 0,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/WE/WE.png",
     "sentence": "Barcollo ma non blocco!",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "LE PRESE MALE",
-    "color": "#3498DB",
+    "color": "#1E90FF",
     "points": 0,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Le+prese+male/Le+prese+male+-+Alessandro+Vettor.jpg",
     "sentence": "Carrots for power",
@@ -29,10 +29,19 @@
   {
     "id": 4,
     "name": "I PAPABILI",
-    "color": "#9B59B6",
+    "color": "#FF8C00",
     "points": 0,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/I+PAPABILI/PAPABILI.png",
     "sentence": "Aut vincere, aut mori.",
     "abbreviation": "PAP"
+  },
+  {
+    "id": 5,
+    "name": "GLI ARRAMPICATORI ASOCIALI",
+    "color": "#b0147b",
+    "points": 0,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Gli+Arrampicatori+Asociali/arrampicatori+sociali.png",
+    "sentence": "Se la vedi la prendi, se la prendi la tieni.",
+    "abbreviation": "AS"
   }
 ]

@@ -3,9 +3,7 @@
   [ngClass]="{ 'px-14': !showAlert }"
 >
   <div class="flex flex-col gap-2 items-center justify-center 2xl:items-start">
-    <h2
-      class="text-balance font-semibold text-4xl tracking-tight sm:text-5xl"
-    >
+    <h2 class="text-balance font-semibold text-4xl tracking-tight sm:text-5xl">
       Le classifiche
     </h2>
   </div>
@@ -66,7 +64,7 @@
             }
         }"
       >
-        @for (user of users(); track $index) { @if ($index < 18) {
+        @for (user of users(); track $index) {
         <splide-slide>
           <app-user-preview-card
             [position]="$index + 1"
@@ -75,7 +73,7 @@
             [teamAbbreviation]="getTeam(user.teamId)?.abbreviation"
           ></app-user-preview-card>
         </splide-slide>
-        } }
+        }
       </splide>
     </div>
   </div>

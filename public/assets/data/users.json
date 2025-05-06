@@ -142,5 +142,41 @@
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/I+PAPABILI/alice.jpeg",
     "teamId": 4,
     "points": 0
+  },
+  {
+    "id": 17,
+    "name": "Lucia",
+    "surname": "Ferrari",
+    "age": 26,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Gli+Arrampicatori+Asociali/luciaferrari.png",
+    "teamId": 5,
+    "points": 0
+  },
+  {
+    "id": 18,
+    "name": "Luca",
+    "surname": "Zucchini",
+    "age": 27,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Gli+Arrampicatori+Asociali/Luca+Zucchini.png",
+    "teamId": 5,
+    "points": 0
+  },
+  {
+    "id": 19,
+    "name": "Susanna",
+    "surname": "Naldi",
+    "age": 30,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Gli+Arrampicatori+Asociali/susannanaldi.png",
+    "teamId": 5,
+    "points": 0
+  },
+  {
+    "id": 20,
+    "name": "Tommaso",
+    "surname": "Vannucchi",
+    "age": 14,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Gli+Arrampicatori+Asociali/Tommaso+Vannucchi.png",
+    "teamId": 5,
+    "points": 0
   }
 ]
