@@ -54,9 +54,5 @@ export class RulesComponent {
       grade: '7A+',
       points: 185,
     },
-    {
-      grade: '7B',
-      points: 200,
-    },
   ];
 }
