@@ -26,8 +26,15 @@
     >
       
   </div> -->
-    <div class="tracking-tight flex flex-col font-thin items-center text-right">
-      {{ user()?.points }} PTS
+    <div class="tracking-tight flex flex-col text-sm/6 items-center italic text-right"
+
+    >
+      <span>{{ user()?.points }} </span>
+      <span
+      class="inline-flex items-center rounded-md px-2 italic font-semibold text-white bg-background"
+    >
+      PTS
+    </span>
     </div>
   </div>
 
