@@ -20,6 +20,15 @@
     >
       {{ position() }} CLASSIFICATO
     </p>
+        <div class="tracking-tight flex my-2 gap-2 text-sm/6 items-center italic text-right"
+
+    >
+      <span
+      class="inline-flex items-center rounded-md px-2 italic font-semibold text-white bg-background"
+    >
+     {{ team()?.points }} PTS
+    </span>
+    </div>
   </div>
   <p class="mt-4 text-xs/6 text-center italic line-clamp-2">
     "{{team()?.sentence}}"
