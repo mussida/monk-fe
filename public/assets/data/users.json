@@ -15,7 +15,7 @@
     "age": 33,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/GLI+HANDIQUAQQUATI/ANDREA.jpg",
     "teamId": 1,
-    "points": 0
+    "points": 1780
   },
   {
     "id": 3,
@@ -51,7 +51,7 @@
     "age": 27,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/WE/LALO.png",
     "teamId": 2,
-    "points": 365
+    "points": 650
   },
   {
     "id": 7,
@@ -78,7 +78,7 @@
     "age": 23,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Le+prese+male/Edo_Le+prese+male+-+Alessandro+Vettor.jpg",
     "teamId": 3,
-    "points": 0
+    "points": 995
   },
   {
     "id": 10,
@@ -132,7 +132,7 @@
     "age": 99,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/I+PAPABILI/paolo.jpeg",
     "teamId": 4,
-    "points": 545
+    "points": 960
   },
   {
     "id": 16,
@@ -159,7 +159,7 @@
     "age": 27,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Gli+Arrampicatori+Asociali/Luca+Zucchini.png",
     "teamId": 5,
-    "points": 490
+    "points": 650
   },
   {
     "id": 19,
