@@ -24,7 +24,7 @@
     "age": 33,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/GLI+HANDIQUAQQUATI/COSMO.jpg",
     "teamId": 1,
-    "points": 1600
+    "points": 1675
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "age": 26,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/GLI+HANDIQUAQQUATI/MARTA.jpg",
     "teamId": 1,
-    "points": 1200
+    "points": 2835
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "age": 72,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/WE/JACK.png",
     "teamId": 2,
-    "points": 100
+    "points": 280
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "age": 63,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/WE/YOUSSEF.png",
     "teamId": 2,
-    "points": 420
+    "points": 445
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "age": 23,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Le+prese+male/Edo_Le+prese+male+-+Alessandro+Vettor.jpg",
     "teamId": 3,
-    "points": 995
+    "points": 1885
   },
   {
     "id": 10,
@@ -105,7 +105,7 @@
     "age": 21,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Le+prese+male/Giulia_Le+prese+male+-+Alessandro+Vettor.jpg",
     "teamId": 3,
-    "points": 1395
+    "points": 2985
   },
   {
     "id": 13,
@@ -141,7 +141,7 @@
     "age": 99,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/I+PAPABILI/alice.jpeg",
     "teamId": 4,
-    "points": 770
+    "points": 1515
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
     "age": 26,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Gli+Arrampicatori+Asociali/luciaferrari.png",
     "teamId": 5,
-    "points": 325
+    "points": 1155
   },
   {
     "id": 18,
@@ -177,6 +177,15 @@
     "age": 14,
     "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/Gli+Arrampicatori+Asociali/Tommaso+Vannucchi.png",
     "teamId": 5,
-    "points": 745
+    "points": 755
+  },
+  {
+    "id": 21,
+    "name": "Luigi RinPio",
+    "surname": "VI",
+    "age": 99,
+    "imageUrl": "https://monk-cup.s3.eu-north-1.amazonaws.com/I+PAPABILI/LUIGI.jpeg",
+    "teamId": 4,
+    "points": 610
   }
 ]
